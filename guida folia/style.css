@@ -55,9 +55,10 @@ nav a {
     font-weight: 400;
     letter-spacing: 0.1rem;
     font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 1.2rem;
     padding: 2rem;
+    font-size: x-large;
 }
 
 main {
@@ -67,6 +68,10 @@ main {
     padding-top: 2rem;
     margin-top: 4rem;
 
+}
+
+main h2 {
+    text-shadow: 1px 1px rgba(255, 0, 0, 0.644);
 }
 
 main article {
@@ -95,11 +100,14 @@ main .banner {
 }
 footer{
     background-color: aliceblue;
-    margin-top: 439px;
+    margin-top: 645px;
     color: black;
     padding-bottom: 3px;
     padding-top: 1px;
+    padding-left: 2rem;
+    position: relative;
 }
+
 
 
 span.hue{
@@ -115,4 +123,23 @@ span.hue{
         filter: hue-rotate(360deg);
     }
 }
+
+.faltam{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+span.faltam{
+    color: white;
+    animation: background-glamour 3s infinite linear;
+}
+
+@keyframes background-glamour {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 
