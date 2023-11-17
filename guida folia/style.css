@@ -142,4 +142,8 @@ span.faltam{
     }
 }
 
+nav a:hover {
+    text-shadow: -4px -3px rgb(243, 134, 32);
+    transition: 0.1s;
+}
 
